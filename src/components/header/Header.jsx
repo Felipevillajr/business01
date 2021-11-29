@@ -9,7 +9,7 @@ export default function Header() {
       <div>TEST BUSINESS LOGO</div>
       <h1>TEST BUSINESS</h1>
       <Dropdown>
-        <Dropdown.Toggle variant="success" id="dropdown-basic-button">
+        <Dropdown.Toggle variant="Primary" id="dropdown-basic-button">
           MENU
         </Dropdown.Toggle>
 

@@ -2,11 +2,45 @@
   text-align: center;
 }
 
-/* .hero__banner {
-  
-} */
 #hero-img {
   width: 100%;
   height: 30vh;
   object-fit: cover;
+}
+
+.info {
+  padding: 2rem;
+  background-color: rgba(6, 155, 255, 0.281);
+}
+
+.info__story {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+}
+
+.imgs-filler {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.img-gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  left: 0%;
+  overflow: hidden;
+  padding: 20rem;
+}
+
+.imgs-filler2 {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  margin: 2px;
 }
